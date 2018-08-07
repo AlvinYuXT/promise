@@ -1,0 +1,24 @@
+{
+  "name": "promise",
+  "version": "0.0.1",
+  "description": "A wheel of Promise",
+  "main": "src/index.js",
+  "author": "AlvinYuxt",
+  "license": "MIT",
+  "scripts": {
+    "test": "promises-aplus-tests test/adapter.js",
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.26.3",
+    "mocha": "^5.2.0",
+    "promises-aplus-tests": "^2.1.2",
+    "rollup": "^0.63.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^4.0.0",
+    "sinon": "^6.1.4"
+  }
+}
